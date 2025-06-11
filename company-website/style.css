@@ -13,7 +13,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
+    
 }
 body{
     font-family: 'Arial', sans-serif, Roboto;
@@ -43,8 +43,8 @@ header{
     color: var(--hero_logo-main-text-color);
     flex: 2;
 }
-p{
-    margin-top: 2%;
+.hero-content1 h1{
+    font-size: var(--header-logo-text-size);
 }
 .hero-content2{
     flex: 1;
@@ -63,6 +63,12 @@ img{
     border-radius: 5px;
     cursor: pointer;
     margin-top: 2%;
+}
+.button1:hover{
+    background-color: #2c6bb0;
+}
+.button2:hover{
+    background-color: #2c6bb0;
 }
 main{
     display: flex;
@@ -95,13 +101,6 @@ main{
     color: var(--hero_quote_header_link-secondary-text-color);
     margin-bottom: 5px;
 }
-.info1 div a{
-    color: var(--hero_quote_header_link-secondary-text-color);
-    text-decoration: none;
-}
-.info1 div a:hover{
-    text-decoration: underline;
-}
 footer{
     background-color: var(--dark-bg-color);
     color: var(--hero_logo-main-text-color);
@@ -127,8 +126,31 @@ footer a:hover{
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;
+    font-weight: 700;
 }
 .call2action{
     background: var(--button_call2action-color);
-    padding: 10px;
+    padding: 20px;
+    margin: 0 20px;
+    border-radius: 5px;
+    color: white;
+}
+.box{
+    width: 15vw;
+    height: 9vw;
+    border: 1px solid blue;
+    margin: 7px auto;
+}
+.info2{
+    background-color: rgb(223, 223, 223);
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+section div p{
+    margin-top: 1px;
+}
+.link:hover{
+    color: grey;
+    text-decoration: underline;
 }
